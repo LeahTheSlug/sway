@@ -243,7 +243,7 @@ default_border none
 gaps inner 10
 
 #run pano-scrobbler
-exec swaymsg "workspace 9; exec pano-scrobbler -m;exec swaymsg workspace 2"
+exec swaymsg "exec pano-scrobbler -m"
 
 #workspaces on specific monitors
 workspace 1 output eDP-1
